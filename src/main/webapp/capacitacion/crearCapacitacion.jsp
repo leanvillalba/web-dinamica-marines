@@ -10,7 +10,7 @@
 	<header>
 			<nav>
 				<ul>
-					<li><a href="index.jsp">Inicio</a></li>
+					<li><a href="../index.jsp">Inicio</a></li>
 					<li><a href="contactojsp.jsp">Contacto</a></li>
 					<li><a href="./capacitacion/crearCapacitacion.jsp">Crear Capacitación</a></li>
 					<li><a href="./capacitacion/listarCapacitacion.jsp">Listar Capacitación</a></li>

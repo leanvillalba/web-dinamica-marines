@@ -1,6 +1,6 @@
 package entity;
 
-public class Cliente {
+public class Cliente extends Usuario{
 	private String nombreEmpresa;
 	private String giroEmpresa;
 	private String rutEmpresa;
