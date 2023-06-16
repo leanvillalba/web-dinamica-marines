@@ -19,7 +19,7 @@
 			</nav>
 		</header>
 		<section>
-			<form action="RegistroCliente" method="post">
+			<form action="RegistroCapacitacionServlet" method="post">
 			<label for="nombreEmpresa">Nombre Empresa:</label>
 			<input type="text" name="nombreEmpresa"/><br>
 			<label for="giroEmpresa">Giro Empresa:</label><br>

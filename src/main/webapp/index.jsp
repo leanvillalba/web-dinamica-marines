@@ -15,6 +15,7 @@
 				<li><a href="./capacitacion/crearCapacitacion.jsp">Crear Capacitación</a></li>
 				<li><a href="./capacitacion/listarCapacitacion.jsp">Listar Capacitación</a></li>
 				<li><a href="formulario.jsp">Formulario</a></li>
+				<li><a href="login.jsp">Login</a></li>
 			</ul>
 		</nav>
 	</header>
