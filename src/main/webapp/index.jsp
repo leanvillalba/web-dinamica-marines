@@ -47,9 +47,12 @@
 		<!-- Fin Header -->
 		<!-- Seccion Principal -->
 		<div class="row">
-			<section>
-				<%-- <a href="helloServlet">Hello Servlet</a> --%>
-			</section>
+			<div class="col">
+				<section>
+					<%-- <a href="helloServlet">Hello Servlet</a> --%>
+				</section>
+			</div>
+
 		</div>
 	</div>
 	<!-- Inicio Footer -->
