@@ -48,8 +48,8 @@ public class LoginServlet extends HttpServlet {
 		
 		if (!USUARIO.contentEquals(requestUsuario) || !PASSWORD.contentEquals(requestPassword)) {
 			out.println("<script type=\"text/javascript\">");
-			out.println("alert('Usuario o Password incorrecto):");
-			out.println("location=login.jsp");
+			out.println("alert('Usuario o Password incorrecto');");
+			out.println("location='login.jsp';");
 			out.println("</script>");
 			
 		} else {
