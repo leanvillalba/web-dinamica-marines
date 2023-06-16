@@ -13,4 +13,20 @@
 
 #seccion p {
 	padding: 10px;
+	
 }
+
+.login{
+	border: 2px dashed grey;
+	text-align: center;
+	padding: 15px;
+	margin: 10px;
+}
+
+.login input[type="button"]{
+	margin-top: 15px;
+	padding: 15px;
+	margin: 10px;
+	background-color: #2B3035;
+}
+
