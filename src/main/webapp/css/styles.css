@@ -1,0 +1,19 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#footer{
+	background-color: #2B3035;
+	border: 1px solid black;
+	color: white;
+
+	
+}
+
+#seccion{
+	border: 1px solid #ccc;
+	min-height: 100vh;
+}

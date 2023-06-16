@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<link rel="stylesheet" href="css/styles.css" />
 <link
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
 	rel="stylesheet"
@@ -13,11 +14,10 @@
 	src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
 	integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
 	crossorigin="anonymous"></script>
+
 <title>Asesorias Marines</title>
 </head>
 <body>
-	<!-- Container principal -->
-	<div class="container">
 		<!-- Header -->
 		<header>
 			<!-- NavBar Bootstrap 5 Component -->
@@ -45,19 +45,27 @@
 			</nav>
 		</header>
 		<!-- Fin Header -->
-		<!-- Seccion Principal -->
-		<div class="row">
-			<div class="col">
-				<section>
-					<%-- <a href="helloServlet">Hello Servlet</a> --%>
-				</section>
-			</div>
+	<!-- Container principal -->
+	<div class="container">
 
-		</div>
+		<!-- Seccion Principal -->
+		<section id="seccion">
+			<div class="row">
+				<div class="col">
+					<%-- <a href="helloServlet">Hello Servlet</a> --%>
+				</div>
+			</div>
+		</section>
 	</div>
 	<!-- Inicio Footer -->
 	<footer id="footer">
-		<h5>by Marines</h5>
+		<div class="row">
+			<div class="col">
+
+				<h5>by Marines Espaciales 2023 &copy;</h5>
+
+			</div>
+		</div>
 	</footer>
 	<script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
