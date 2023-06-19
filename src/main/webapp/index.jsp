@@ -36,9 +36,9 @@
 						<a class="nav-link active" aria-current="page" href="index.jsp">Inicio</a>
 						<a class="nav-link" href="contacto.jsp">Contacto</a> <a
 							class="nav-link" href="capacitacion/crearCapacitacion.jsp">Crear
-							Capacitación</a> <a class="nav-link" href="capacitacion/listarCapacitacion.jsp"">Listar
-							Capacitación</a> <a class="nav-link" href="formulario.jsp"">Formulario</a>
-						<a class="nav-link" href="login.jsp"">Login</a>
+							Capacitación</a> <a class="nav-link" href="capacitacion/listarCapacitacion.jsp">Listar
+							Capacitación</a> <a class="nav-link" href="formulario.jsp">Formulario</a>
+						<a class="nav-link" href="login.jsp">Login</a>
 					</div>
 				</div>
 			</div>
