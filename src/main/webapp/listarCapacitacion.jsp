@@ -41,6 +41,8 @@
 		</div>
 	</nav>
 	<section id="seccion">
+	<h1>Lista de clientes:</h1>
+	<h2>agregar lista en: listarCapacitacion.jsp</h2>
 	</section>
 	<!-- Inicio Footer -->
 	<footer id="footer">

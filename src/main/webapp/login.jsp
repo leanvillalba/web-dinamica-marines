@@ -73,13 +73,13 @@
 									<!-- Usuario input -->
 									<div class="form-outline mb-4">
 										<input type="text" id="form3Example3" class="form-control"
-											name="usuario" placeholder="Ingrese Usuario" />
+											name="usuario" required placeholder="Ingrese Usuario" />
 									</div>
 
 									<!-- Password input -->
 									<div class="form-outline mb-4">
 										<input type="password" id="form3Example4" class="form-control"
-											name="pass" placeholder="Ingrese Contraseña" />
+											name="pass" required placeholder="Ingrese Contraseña" />
 									</div>
 
 									<!-- Submit button -->
