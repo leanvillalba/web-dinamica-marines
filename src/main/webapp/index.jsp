@@ -46,9 +46,54 @@
 	<!-- Fin Header -->
 	<!-- Container principal -->
 	<div class="container">
+		<section class="hero">
+			<div class="hero-content">
+				<h1>Bienvenido/a a Capacitaciones Generales</h1>
+				<p>Mejora tus habilidades y conocimientos con nuestros programas
+					de capacitación de calidad.</p>
+				<a href="cursos.html" class="btn">Explora nuestros cursos</a>
+			</div>
+		</section>
 
+		<section class="about-us">
+			<div class="container">
+				<h2>Sobre Nosotros</h2>
+				<p>En Capacitaciones Generales, nos dedicamos a proporcionar
+					programas de capacitación de alta calidad diseñados para mejorar
+					las habilidades y conocimientos de individuos y organizaciones en
+					diversas áreas. Con años de experiencia en la industria, nos
+					enorgullece ofrecer soluciones educativas personalizadas y
+					adaptadas a las necesidades de nuestros clientes.</p>
+			</div>
+		</section>
+
+		<section class="services">
+			<div class="container">
+				<h2>Nuestros Servicios</h2>
+				<ul>
+					<li>Capacitaciones presenciales y en línea</li>
+					<li>Desarrollo de habilidades</li>
+					<li>Seminarios y conferencias</li>
+					<li>Consultoría</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="contact">
+			<div class="container">
+				<h2>Contáctanos</h2>
+				<p>Si estás interesado/a en nuestros servicios de capacitación o
+					deseas obtener más información, no dudes en ponerte en contacto con
+					nosotros a través de los siguientes medios:</p>
+				<ul>
+					<li>Dirección física: [Dirección de la empresa]</li>
+					<li>Número de teléfono: [Número de teléfono]</li>
+					<li>Correo electrónico: [Correo electrónico de contacto]</li>
+				</ul>
+			</div>
+		</section>
 		<!-- Seccion Principal -->
-		<section id="seccion">
+		<section id="">
 
 			<div class="row">
 				<
