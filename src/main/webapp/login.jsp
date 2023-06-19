@@ -17,86 +17,86 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<header>
+		<!-- NavBar Bootstrap 5 Component -->
+		<nav class="navbar navbar-expand-lg bg-body-tertiary"
+			data-bs-theme="dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.jsp">Sistema de Capacitación</a>
+				<button class="navbar-toggler" type="button"
+					data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-link active" aria-current="page" href="index.jsp">Inicio</a>
+						<a class="nav-link" href="contacto.jsp">Contacto</a> <a
+							class="nav-link" href="crearCapacitacion.jsp">Crear
+							Capacitación</a> <a class="nav-link" href="listarCapacitacion.jsp">Listar
+							Capacitación</a> 
+						<a class="nav-link" href="login.jsp">Login</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
 	<div class="container">
 		<!-- Header -->
-		<header>
-			<!-- NavBar Bootstrap 5 Component -->
-			<nav class="navbar navbar-expand-lg bg-body-tertiary"
-				data-bs-theme="dark">
-				<div class="container-fluid">
-					<a class="navbar-brand" href="index.jsp">Sistema de
-						Capacitación</a>
-					<button class="navbar-toggler" type="button"
-						data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-						aria-controls="navbarNavAltMarkup" aria-expanded="false"
-						aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-						<div class="navbar-nav">
-							<a class="nav-link active" aria-current="page" href="index.jsp">Inicio</a>
-							<a class="nav-link" href="contacto.jsp">Contacto</a> <a
-								class="nav-link" href="crearCapacitacion.jsp">Crear
-								Capacitación</a> <a class="nav-link"
-								href="listarCapacitacion.jsp">Listar
-								Capacitación</a> <a class="nav-link" href="formulario.jsp">Formulario</a>
-							<a class="nav-link" href="login.jsp">Login</a>
+
+
+		<section class="" id="seccion">
+			<!-- Jumbotron -->
+			<div class=" container px-4 py-5 px-md-5 text-center text-lg-start"
+				style="background-color: hsl(0, 0%, 96%)">
+
+				<div class="row gx-lg-5 align-items-center">
+					<div class="col-lg-6 mb-5 mb-lg-0">
+						<h1 class="my-5 display-3 fw-bold ls-tight">
+							Bienvenidos a <br /> <span class="text-primary">Asesorías
+								Marines</span>
+						</h1>
+						<p style="color: hsl(217, 10%, 50.8%)">Lorem ipsum dolor sit
+							amet consectetur adipisicing elit. Eveniet, itaque accusantium
+							odio, soluta, corrupti aliquam quibusdam tempora at cupiditate
+							quis eum maiores libero veritatis? Dicta facilis sint aliquid
+							ipsum atque?</p>
+					</div>
+
+					<div class="col-lg-6 mb-5 mb-lg-0">
+						<div class="card">
+							<div class="card-body py-5 px-md-5">
+								<form action="LoginServlet" method="post">
+
+
+									<!-- Usuario input -->
+									<div class="form-outline mb-4">
+										<input type="text" id="form3Example3" class="form-control"
+											name="usuario" placeholder="Ingrese Usuario" />
+									</div>
+
+									<!-- Password input -->
+									<div class="form-outline mb-4">
+										<input type="password" id="form3Example4" class="form-control"
+											name="pass" placeholder="Ingrese Contraseña" />
+									</div>
+
+									<!-- Submit button -->
+									<button type="submit" class="btn btn-primary btn-block mb-4">
+										Log In</button>
+
+
+								</form>
+							</div>
 						</div>
 					</div>
 				</div>
-			</nav>
-		</header>
-		
-		<section class="">
-  <!-- Jumbotron -->
-  <div class=" container px-4 py-5 px-md-5 text-center text-lg-start" style="background-color: hsl(0, 0%, 96%)">
-    
-      <div class="row gx-lg-5 align-items-center">
-        <div class="col-lg-6 mb-5 mb-lg-0">
-          <h1 class="my-5 display-3 fw-bold ls-tight">
-            Bienvenidos a  <br />
-            <span class="text-primary">Asesorías Marines</span>
-          </h1>
-          <p style="color: hsl(217, 10%, 50.8%)">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Eveniet, itaque accusantium odio, soluta, corrupti aliquam
-            quibusdam tempora at cupiditate quis eum maiores libero
-            veritatis? Dicta facilis sint aliquid ipsum atque?
-          </p>
-        </div>
 
-        <div class="col-lg-6 mb-5 mb-lg-0">
-          <div class="card">
-            <div class="card-body py-5 px-md-5">
-              <form action="LoginServlet" method="post">
-                
-
-                <!-- Usuario input -->
-                <div class="form-outline mb-4">
-                  <input type="text" id="form3Example3" class="form-control" name="usuario" placeholder="Ingrese Usuario"  />
-                </div>
-
-                <!-- Password input -->
-                <div class="form-outline mb-4">
-                  <input type="password" id="form3Example4" class="form-control" name="pass" placeholder="Ingrese Contraseña" />
-                </div>
-
-                <!-- Submit button -->
-                <button type="submit" class="btn btn-primary btn-block mb-4">
-                  Log In
-                </button>
-
-
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-   
-  </div>
-  <!-- Jumbotron -->
-</section>
-<!-- Section: Fin Login -->
+			</div>
+			<!-- Jumbotron -->
+		</section>
+		<!-- Section: Fin Login -->
 
 	</div>
 	<!-- Inicio Footer -->
