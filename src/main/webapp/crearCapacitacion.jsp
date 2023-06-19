@@ -56,6 +56,8 @@
 			<input type="text" name="horaCapacitacion"/><br>
 			<label for="lugarCapacitacion">Lugar:</label>
 			<input type="text" name="lugarCapacitacion"/><br>
+			<label for="cantidadAsistentes">Duración (en minutos):</label>
+			<input type="text" name="duracion"/><br>
 			<label for="cantidadAsistentes">Cantidad de Asistentes:</label>
 			<input type="text" name="cantidadAsistentes"/><br>
 				<input

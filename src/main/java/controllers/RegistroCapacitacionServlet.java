@@ -42,6 +42,7 @@ public class RegistroCapacitacionServlet extends HttpServlet {
 		String dia = request.getParameter("diaCapacitacion");
 		String hora = request.getParameter("horaCapacitacion");
 		String lugar = request.getParameter("lugarCapacitacion");
+		int duracion = Integer.parseInt(request.getParameter("duracion"));
 		int cantidadAsistentes = Integer.parseInt(request.getParameter("cantidadAsistentes"));
 
 		Capacitacion capacitacion = new Capacitacion();
@@ -50,6 +51,7 @@ public class RegistroCapacitacionServlet extends HttpServlet {
 		capacitacion.setRutCliente(rut);
 		capacitacion.setHora(hora);
 		capacitacion.setLugar(lugar);
+		capacitacion.setDuracion(230);
 		capacitacion.setCantidadDeAsistentes(cantidadAsistentes);
 
 		PrintWriter salida;
