@@ -69,43 +69,43 @@
 									<!-- idCapacitacion input -->
 									<div class="form-outline mb-4">
 										<input type="text" id="form3Example3" class="form-control"
-											name="idCapacitacion" placeholder="Ingrese ID Capacitación" />
+											name="idCapacitacion" required placeholder="Ingrese ID Capacitación" />
 									</div>
 									
 									<!-- rutCliente input -->
 									<div class="form-outline mb-4">
 										<input type="text" id="form3Example3" class="form-control"
-											name="rutEmpresa" placeholder="Ingrese RUT de la Empresa" />
+											name="rutEmpresa" required placeholder="Ingrese RUT de la Empresa" />
 									</div>
 
 									<!-- dia input -->
 									<div class="form-outline mb-4">
 										<input type="text" id="form3Example3" class="form-control"
-											name="diaCapacitacion" placeholder="Ingrese el Día de la capacitación" />
+											name="diaCapacitacion" required placeholder="Ingrese el Día de la capacitación" />
 									</div>
 									
 									<!-- hora input -->
 									<div class="form-outline mb-4">
 										<input type="text" id="form3Example3" class="form-control"
-											name="horaCapacitacion" placeholder="Ingrese la Hora de la capacitación" />
+											name="horaCapacitacion" required placeholder="Ingrese la Hora de la capacitación" />
 									</div>
 									
 									<!-- lugar input -->
 									<div class="form-outline mb-4">
 										<input type="text" id="form3Example3" class="form-control"
-											name="lugarCapacitacion" placeholder="Ingrese el Lugar de la capacitación" />
+											name="lugarCapacitacion" required placeholder="Ingrese el Lugar de la capacitación" />
 									</div>
 									
 									<!-- duracion input -->
 									<div class="form-outline mb-4">
 										<input type="text" id="form3Example3" class="form-control"
-											name="duracion" placeholder="Ingrese la Duración de la capacitación (En Minutos)" />
+											name="duracion" required placeholder="Ingrese la Duración de la capacitación (En Minutos)" />
 									</div>
 									
 									<!-- cantidadAsistentes input -->
 									<div class="form-outline mb-4">
 										<input type="text" id="form3Example3" class="form-control"
-											name="cantidadAsistentes" placeholder="Ingrese Cantidad de Asistentes" />
+											name="cantidadAsistentes" required placeholder="Ingrese Cantidad de Asistentes" />
 									</div>
 
 									<!-- Submit button -->
