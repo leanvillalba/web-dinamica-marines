@@ -44,7 +44,7 @@
 	</nav>
 	<!-- Inicio Footer -->
 	<footer id="footer">
-		<div class="row">
+		<div class="">
 			<div class="col text-center">
 
 				<h5>by Marines Espaciales 2023 &copy;</h5>
