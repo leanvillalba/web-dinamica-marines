@@ -35,31 +35,31 @@
 						<a class="nav-link active" aria-current="page" href="index.jsp">Inicio</a>
 						<a class="nav-link" href="contacto.jsp">Contacto</a> <a
 							class="nav-link" href="crearCapacitacion.jsp">Crear
-							Capacitación</a> <a class="nav-link"
-							href="listarCapacitacion.jsp">Listar
-							Capacitación</a> 
-						<a class="nav-link" href="login.jsp">Login</a>
+							Capacitación</a> <a class="nav-link" href="listarCapacitacion.jsp">Listar
+							Capacitación</a> <a class="nav-link" href="login.jsp">Login</a>
 					</div>
 				</div>
 			</div>
 		</nav>
 	</header>
-	<h1>Formulario de contacto</h1>
+	<div class="container">
+		<section id="seccion">
+			<h1>Formulario de contacto</h1>
 
-  <div class="contact_div">
-    <form class="contact_form border" action="" method="POST">
-    <label for="nombre">Nombre:</label><br>
-    <input type="text" id="nombre" name="nombre" required><br>
+			<div class="contact_div">
+				<form class="contact_form border" action="" method="POST">
+					<label for="nombre">Nombre:</label><br> <input type="text"
+						id="nombre" name="nombre" required><br> <label
+						for="email">Email:</label><br> <input type="email" id="email"
+						name="email" required><br> <label for="mensaje">Mensaje:</label><br>
+					<textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+					<br> <input type="submit" value="Enviar">
+				</form>
+			</div>
+	</div>
+	</section>
 
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email" required><br>
 
-    <label for="mensaje">Mensaje:</label><br>
-    <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br>
-
-    <input type="submit" value="Enviar">
-  </form>
-  </div>
 	<!-- Inicio Footer -->
 	<footer id="footer">
 		<div class="">
