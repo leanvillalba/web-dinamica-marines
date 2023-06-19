@@ -24,7 +24,7 @@
 		<nav class="navbar navbar-expand-lg bg-body-tertiary"
 			data-bs-theme="dark">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="#">Sistema de Capacitación</a>
+				<a class="navbar-brand" href="index.jsp">Sistema de Capacitación</a>
 				<button class="navbar-toggler" type="button"
 					data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
 					aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -35,8 +35,9 @@
 					<div class="navbar-nav">
 						<a class="nav-link active" aria-current="page" href="index.jsp">Inicio</a>
 						<a class="nav-link" href="contacto.jsp">Contacto</a> <a
-							class="nav-link" href="capacitacion/crearCapacitacion.jsp">Crear
-							Capacitación</a> <a class="nav-link" href="capacitacion/listarCapacitacion.jsp">Listar
+							class="nav-link" href="crearCapacitacion.jsp">Crear
+							Capacitación</a> <a class="nav-link"
+							href="listarCapacitacion.jsp">Listar
 							Capacitación</a> <a class="nav-link" href="formulario.jsp">Formulario</a>
 						<a class="nav-link" href="login.jsp">Login</a>
 					</div>
@@ -57,7 +58,8 @@
 						<form action="" method="">
 							<label for="nombre">Nombre:</label> <br> <input type="text"
 								name="nombre"> <br> <label for="password">Contraseña:</label>
-							<br> <input type="text" name="password"> <br> <button type="button" class="btn btn-primary mt-1">Entrar!</button>
+							<br> <input type="text" name="password"> <br>
+							<button type="button" class="btn btn-primary mt-1">Entrar!</button>
 						</form>
 					</div>
 				</div>
