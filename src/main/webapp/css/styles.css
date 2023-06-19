@@ -30,3 +30,20 @@
 	background-color: #2B3035;
 }
 
+
+/* ESTILOS FORMULARIO DE CONTACTO */
+h1{
+	text-align:center;
+}
+.contact_div{
+	height:83.5vh;
+	display:flex;
+	justify-content:center;
+	
+}
+.contact_form{
+	text-align:center;
+	margin:auto;
+	width:500px;
+	height: 400px;
+}

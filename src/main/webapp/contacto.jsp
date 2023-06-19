@@ -46,18 +46,23 @@
 	</header>
 	<h1>Formulario de contacto</h1>
 
-	<form action="procesar_formulario.php" method="POST">
-		<label for="nombre">Nombre:</label> <input type="text" id="nombre"
-			name="nombre" required><br> <label for="email">Email:</label>
-		<input type="email" id="email" name="email" required><br>
+  <div class="contact_div">
+    <form class="contact_form border" action="" method="POST">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br>
 
-		<label for="mensaje">Mensaje:</label><br>
-		<textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-		<br> <input type="submit" value="Enviar">
-	</form>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+  </div>
 	<!-- Inicio Footer -->
 	<footer id="footer">
-		<div class="row">
+		<div class="">
 			<div class="col text-center">
 
 				<h5>by Marines Espaciales 2023 &copy;</h5>
