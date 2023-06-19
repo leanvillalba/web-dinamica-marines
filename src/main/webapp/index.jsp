@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="css/styles.css" />
@@ -24,7 +24,7 @@
 		<nav class="navbar navbar-expand-lg bg-body-tertiary"
 			data-bs-theme="dark">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="index.jsp">Sistema de CapacitaciÃ³n</a>
+				<a class="navbar-brand" href="index.jsp">Sistema de Capacitación</a>
 				<button class="navbar-toggler" type="button"
 					data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
 					aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -36,8 +36,8 @@
 						<a class="nav-link active" aria-current="page" href="index.jsp">Inicio</a>
 						<a class="nav-link" href="contacto.jsp">Contacto</a> <a
 							class="nav-link" href="crearCapacitacion.jsp">Crear
-							CapacitaciÃ³n</a> <a class="nav-link" href="listarCapacitacion.jsp">Listar
-							CapacitaciÃ³n</a> <a class="nav-link" href="login.jsp">Login</a>
+							Capacitación</a> <a class="nav-link" href="listarCapacitacion.jsp">Listar
+							Capacitación</a> <a class="nav-link" href="login.jsp">Login</a>
 					</div>
 				</div>
 			</div>
@@ -50,7 +50,7 @@
 			<div class="hero-content">
 				<h1>Bienvenido/a a Capacitaciones Generales</h1>
 				<p>Mejora tus habilidades y conocimientos con nuestros programas
-					de capacitaciÃ³n de calidad.</p>
+					de capacitación de calidad.</p>
 				<a href="cursos.html" class="btn">Explora nuestros cursos</a>
 			</div>
 		</section>
@@ -59,9 +59,9 @@
 			<div class="container">
 				<h2>Sobre Nosotros</h2>
 				<p>En Capacitaciones Generales, nos dedicamos a proporcionar
-					programas de capacitaciÃ³n de alta calidad diseÃ±ados para mejorar
+					programas de Capacitación de alta calidad diseñados para mejorar
 					las habilidades y conocimientos de individuos y organizaciones en
-					diversas Ã¡reas. Con aÃ±os de experiencia en la industria, nos
+					diversas Áreas. Con años de experiencia en la industria, nos
 					enorgullece ofrecer soluciones educativas personalizadas y
 					adaptadas a las necesidades de nuestros clientes.</p>
 			</div>
@@ -71,24 +71,24 @@
 			<div class="container">
 				<h2>Nuestros Servicios</h2>
 				<ul>
-					<li>Capacitaciones presenciales y en lÃ­nea</li>
+					<li>Capacitaciones presenciales y en línea</li>
 					<li>Desarrollo de habilidades</li>
 					<li>Seminarios y conferencias</li>
-					<li>ConsultorÃ­a</li>
+					<li>Consultoría</li>
 				</ul>
 			</div>
 		</section>
 
 		<section class="contact">
 			<div class="container">
-				<h2>ContÃ¡ctanos</h2>
-				<p>Si estÃ¡s interesado/a en nuestros servicios de capacitaciÃ³n o
-					deseas obtener mÃ¡s informaciÃ³n, no dudes en ponerte en contacto con
-					nosotros a travÃ©s de los siguientes medios:</p>
+				<h2>Contáctanos</h2>
+				<p>Si estás interesado/a en nuestros servicios de capacitación o
+					deseas obtener más información, no dudes en ponerte en contacto con
+					nosotros a través de los siguientes medios:</p>
 				<ul>
-					<li>DirecciÃ³n fÃ­sica: [DirecciÃ³n de la empresa]</li>
-					<li>NÃºmero de telÃ©fono: [NÃºmero de telÃ©fono]</li>
-					<li>Correo electrÃ³nico: [Correo electrÃ³nico de contacto]</li>
+					<li>Dirección física: [Dirección de la empresa]</li>
+					<li>Número de teléfono: [Número de teléfono]</li>
+					<li>Correo electrónico: [Correo electrónico de contacto]</li>
 				</ul>
 			</div>
 		</section>
@@ -99,79 +99,79 @@
 				<
 				<h2>[Nombre de la empresa] - Capacitaciones Generales</h2>
 
-				<p>Bienvenido/a a [Nombre de la empresa], lÃ­der en el campo de
+				<p>Bienvenido/a a [Nombre de la empresa], líder en el campo de
 					las capacitaciones generales. Nos dedicamos a proporcionar
-					programas de capacitaciÃ³n de alta calidad diseÃ±ados para mejorar
+					programas de capacitación de alta calidad diseñados para mejorar
 					las habilidades y conocimientos de individuos y organizaciones en
-					diversas Ã¡reas. Con aÃ±os de experiencia en la industria, nos
+					diversas áreas. Con años de experiencia en la industria, nos
 					enorgullece ofrecer soluciones educativas personalizadas y
 					adaptadas a las necesidades de nuestros clientes.</p>
 
 				<h2>Nuestro enfoque</h2>
 
 				<p>En [Nombre de la empresa], creemos en el poder de la
-					educaciÃ³n para impulsar el crecimiento y el desarrollo tanto a
+					educación para impulsar el crecimiento y el desarrollo tanto a
 					nivel personal como profesional. Nuestro enfoque se basa en
-					proporcionar capacitaciones prÃ¡cticas y relevantes que permitan a
+					proporcionar capacitaciones prácticas y relevantes que permitan a
 					nuestros participantes adquirir nuevas habilidades, mejorar su
-					desempeÃ±o y alcanzar sus metas.</p>
+					desempeño y alcanzar sus metas.</p>
 
 				<h2>Nuestros servicios</h2>
 
-				<p>Capacitaciones presenciales y en lÃ­nea: Ofrecemos una amplia
-					gama de cursos presenciales y en lÃ­nea impartidos por expertos en
-					sus respectivos campos. Nuestros programas estÃ¡n diseÃ±ados para
+				<p>Capacitaciones presenciales y en línea: Ofrecemos una amplia
+					gama de cursos presenciales y en línea impartidos por expertos en
+					sus respectivos campos. Nuestros programas están diseñados para
 					adaptarse a diferentes niveles de conocimiento y necesidades
-					especÃ­ficas.</p>
+					específicas.</p>
 
 				<p>Desarrollo de habilidades: Brindamos talleres y
 					capacitaciones intensivas centradas en el desarrollo de habilidades
-					clave, como liderazgo, comunicaciÃ³n efectiva, trabajo en equipo,
-					gestiÃ³n del tiempo y resoluciÃ³n de problemas.</p>
+					clave, como liderazgo, comunicación efectiva, trabajo en equipo,
+					gestión del tiempo y resolución de problemas.</p>
 
 				<p>Seminarios y conferencias: Organizamos eventos educativos,
 					seminarios y conferencias en los que reunimos a profesionales
 					destacados para compartir sus conocimientos y experiencias con
 					nuestra audiencia.</p>
 
-				<p>ConsultorÃ­a: AdemÃ¡s de nuestras capacitaciones, ofrecemos
-					servicios de consultorÃ­a para ayudar a las organizaciones a
-					identificar sus necesidades de capacitaciÃ³n, diseÃ±ar programas a
+				<p>Consultoría: Además de nuestras capacitaciones, ofrecemos
+					servicios de consultoría para ayudar a las organizaciones a
+					identificar sus necesidades de capacitación, diseñar programas a
 					medida y evaluar los resultados obtenidos.</p>
 
-				<h3>Â¿Por quÃ© elegirnos?</h3>
+				<h3>¿Por qué elegirnos?</h3>
 
 				<p>Experiencia y conocimientos: Contamos con un equipo de
 					instructores y consultores altamente calificados y experimentados
-					que poseen un profundo conocimiento en sus respectivas Ã¡reas de
-					especializaciÃ³n.</p>
+					que poseen un profundo conocimiento en sus respectivas áreas de
+					especialización.</p>
 
 				<p>Enfoque personalizado: Entendemos que cada individuo y
-					organizaciÃ³n es Ãºnico, por lo que adaptamos nuestras capacitaciones
-					para satisfacer las necesidades especÃ­ficas de cada cliente.</p>
+					organización es único, por lo que adaptamos nuestras capacitaciones
+					para satisfacer las necesidades específicas de cada cliente.</p>
 
 				<p>Calidad y excelencia: Nos comprometemos a ofrecer programas
-					de capacitaciÃ³n de la mÃ¡s alta calidad, utilizando mÃ©todos de
-					enseÃ±anza innovadores y materiales actualizados.</p>
+					de capacitación de la más alta calidad, utilizando métodos de
+					enseñanza innovadores y materiales actualizados.</p>
 
 				<p>Resultados medibles: Evaluamos el impacto de nuestras
 					capacitaciones y nos esforzamos por garantizar que nuestros
 					participantes logren resultados tangibles y mejoren su rendimiento.
 				</p>
 
-				<h3>ContÃ¡ctanos</h3>
+				<h3>Contáctanos</h3>
 
-				<p>Si estÃ¡s interesado/a en nuestros servicios de capacitaciÃ³n o
-					deseas obtener mÃ¡s informaciÃ³n, no dudes en ponerte en contacto con
-					nosotros a travÃ©s de los siguientes medios:</p>
+				<p>Si estás interesado/a en nuestros servicios de capacitación o
+					deseas obtener más información, no dudes en ponerte en contacto con
+					nosotros a través de los siguientes medios:</p>
 
-				<p>DirecciÃ³n fÃ­sica: [DirecciÃ³n de la empresa] NÃºmero de
-					telÃ©fono: [NÃºmero de telÃ©fono] Correo electrÃ³nico: [Correo
-					electrÃ³nico de contacto] Estaremos encantados de responder a tus
+				<p>Dirección física: [Dirección de la empresa] Número de
+					teléfono: [Número de teléfono] Correo electrónico: [Correo
+					electrónico de contacto] Estaremos encantados de responder a tus
 					preguntas y brindarte asesoramiento personalizado.</p>
 
 				<p>En [Nombre de la empresa], estamos comprometidos con tu
-					crecimiento y Ã©xito. Ãšnete a nosotros y descubre cÃ³mo nuestras
+					crecimiento y éxito. Ãšnete a nosotros y descubre cómo nuestras
 					capacitaciones generales pueden impulsar tu desarrollo profesional
 					y personal.</p>
 			</div>
