@@ -52,8 +52,7 @@ public class RegistroCapacitacionServlet extends HttpServlet {
 
 		
 		// ********************** Probando Listar Capacitación ***************************
-		// Todavía no funciona
-		// También se podría hacer con sessiones...
+		// Redirige a la página. Falta editar listarCapacitaciones.jsp para mostrar la lista
 		
 		Capacitacion capacitacion2 = new Capacitacion(id, rut, dia, hora, lugar, duracion, cantidadAsistentes);
 		
@@ -65,7 +64,7 @@ public class RegistroCapacitacionServlet extends HttpServlet {
 		request.setAttribute("capacitaciones", listaCapacitacion);
 		
 		// Envío de la lista -- NO funciona -.-----
-		//getServletContent.getRequestDispatcher("listarCapacitacion.jsp").forward(request,response);
+		getServletContext().getRequestDispatcher("/listarCapacitacion.jsp").forward(request,response);
 		
 		//Probando con sesiones
 		/*
@@ -85,7 +84,6 @@ public class RegistroCapacitacionServlet extends HttpServlet {
 		capacitacion.setLugar(lugar);
 		capacitacion.setDuracion(duracion);
 		capacitacion.setCantidadDeAsistentes(cantidadAsistentes);
-		*/
 		
 		PrintWriter salida;
 
@@ -114,6 +112,7 @@ public class RegistroCapacitacionServlet extends HttpServlet {
 					e.printStackTrace();
 				}
 				doGet(request, response);
+		 */
 	}
 
 }
