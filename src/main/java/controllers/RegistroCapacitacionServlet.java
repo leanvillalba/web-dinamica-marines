@@ -51,7 +51,7 @@ public class RegistroCapacitacionServlet extends HttpServlet {
 		capacitacion.setRutCliente(rut);
 		capacitacion.setHora(hora);
 		capacitacion.setLugar(lugar);
-		capacitacion.setDuracion(230);
+		capacitacion.setDuracion(duracion);
 		capacitacion.setCantidadDeAsistentes(cantidadAsistentes);
 
 		PrintWriter salida;
