@@ -3,7 +3,7 @@ package entity;
 public class Capacitacion {
 
     private Integer idCapacitacion;
-    private Integer rutCliente;
+    private String rutCliente;
     private String dia;
     private String hora;
     private String lugar;
@@ -14,7 +14,7 @@ public class Capacitacion {
     public Capacitacion() {
     }
 
-    public Capacitacion(Integer idCapacitacion, Integer rutCliente, String dia, String hora, String lugar, Integer duracion, Integer cantidadDeAsistentes) {
+    public Capacitacion(Integer idCapacitacion, String rutCliente, String dia, String hora, String lugar, Integer duracion, Integer cantidadDeAsistentes) {
         this.idCapacitacion = idCapacitacion;
         this.rutCliente = rutCliente;
         this.dia = dia;
@@ -32,12 +32,12 @@ public class Capacitacion {
         this.idCapacitacion = idCapacitacion;
     }
 
-    public Integer getRutCliente() {
+    public String getRutCliente() {
         return rutCliente;
     }
 
-    public void setRutCliente(Integer rutCliente) {
-        this.rutCliente = rutCliente;
+    public void setRutCliente(String rut) {
+        this.rutCliente = rut;
     }
 
     public String getDia() {

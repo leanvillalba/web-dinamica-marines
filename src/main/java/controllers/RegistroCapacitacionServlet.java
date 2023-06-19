@@ -47,6 +47,7 @@ public class RegistroCapacitacionServlet extends HttpServlet {
 		Capacitacion capacitacion = new Capacitacion();
 		capacitacion.setIdCapacitacion(id);
 		capacitacion.setDia(dia);
+		capacitacion.setRutCliente(rut);
 		capacitacion.setHora(hora);
 		capacitacion.setLugar(lugar);
 		capacitacion.setCantidadDeAsistentes(cantidadAsistentes);
