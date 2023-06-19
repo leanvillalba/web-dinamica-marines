@@ -46,18 +46,19 @@
 	</header>
 	<section>
 		<form action="RegistroCapacitacionServlet" method="post">
-			<label for="nombreEmpresa">Nombre Empresa:</label> <input type="text"
-				name="nombreEmpresa" /><br> <label for="giroEmpresa">Giro
-				Empresa:</label><br> <input type="text" name="giroEmpresa" /><br>
+						<label for="idCapacitacion">ID Capacitación:</label>
+			<input type="text" name="idCapacitacion"/><br>
 			<label for="rutEmpresa">Rut Empresa:</label> <input type="text"
-				name="rutEmpresa" /><br> <label for="telefonoRepresentante">Telefono
-				Representante:</label> <input type="text" name="telefonoRepresentante" /><br>
-			<label for="direccionEmpresa">Direccion Empresa:</label> <input
-				type="text" name="direccionEmpresa" /><br> <label
-				for="comunaEmpresa">Comuna Empresa:</label> <input type="text"
-				name="comunaEmpresa" /><br> <br> <br> <label
-				for="nombreCapacitcion">Nombre de Capacitacion:</label> <input
-				type="text" name="comunaCapacitacion" /><br> <input
+				name="rutEmpresa" /><br>
+							<label for="diaCapacitacion">Día:</label>
+			<input type="text" name="diaCapacitacion"/><br>
+			<label for="horaCapacitacion">Hora:</label>
+			<input type="text" name="horaCapacitacion"/><br>
+			<label for="lugarCapacitacion">Lugar:</label>
+			<input type="text" name="lugarCapacitacion"/><br>
+			<label for="cantidadAsistentes">Cantidad de Asistentes:</label>
+			<input type="text" name="cantidadAsistentes"/><br>
+				<input
 				type="submit" value="enviar">
 		</form>
 	</section>
