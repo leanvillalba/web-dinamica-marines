@@ -1,11 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-<meta charset="UTF-8">
 <link rel="stylesheet" href="css/styles.css" />
-<title>Contacto</title>
+<title>Home | Pagina de Inicio</title>
 <link
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
 	rel="stylesheet"
@@ -23,7 +22,7 @@
 		<nav class="navbar navbar-expand-lg bg-body-tertiary"
 			data-bs-theme="dark">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="index.jsp">Sistema de Capacitaci�n</a>
+				<a class="navbar-brand" href="index.jsp">Sistema de Capacitación</a>
 				<button class="navbar-toggler" type="button"
 					data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
 					aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -35,145 +34,116 @@
 						<a class="nav-link active" aria-current="page" href="index.jsp">Inicio</a>
 						<a class="nav-link" href="contacto.jsp">Contacto</a> <a
 							class="nav-link" href="crearCapacitacion.jsp">Crear
-							Capacitaci�n</a> <a class="nav-link" href="listarCapacitacion.jsp">Listar
-							Capacitaci�n</a> <a class="nav-link" href="login.jsp">Login</a>
+							Capacitación</a> <a class="nav-link" href="listarCapacitacion.jsp">Listar
+							Capacitación</a> <a class="nav-link" href="login.jsp">Login</a>
 					</div>
 				</div>
 			</div>
 		</nav>
 	</header>
 	<!-- Fin Header -->
+	<!-- Carrousel -->
+	<div id="carouselExample" class="carousel slide">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="imagenes/capacitacion001.jpg" class="d-block w-100 h-50" alt="Imagen de Ejemplo de Slider" >
+			</div>
+			<div class="carousel-item">
+				<img src="imagenes/capacitacion002.jpg" class="d-block w-100 h-50" alt="Imagen de Ejemplo de Slider 2">
+			</div>
+			<div class="carousel-item">
+				<img src="imagenes/capacitacion003.jpg" class="d-block w-100 h-50" alt="Imagen de Ejemplo de Slider 3">
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button"
+			data-bs-target="#carouselExample" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span> <span
+				class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button"
+			data-bs-target="#carouselExample" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span> <span
+				class="visually-hidden">Next</span>
+		</button>
+	</div>
+	<!-- Fin de Carrousel -->
 	<!-- Container principal -->
 	<div class="container">
-		<section class="hero">
-			<div class="hero-content">
-				<h1>Bienvenido/a a Capacitaciones Generales</h1>
-				<p>Mejora tus habilidades y conocimientos con nuestros programas
-					de capacitaci�n de calidad.</p>
-				<a href="cursos.html" class="btn">Explora nuestros cursos</a>
-			</div>
-		</section>
+		<h2>[Nombre de la empresa] - Capacitaciones Generales</h2>
 
-		<section class="about-us">
-			<div class="container">
-				<h2>Sobre Nosotros</h2>
-				<p>En Capacitaciones Generales, nos dedicamos a proporcionar
-					programas de Capacitaci�n de alta calidad dise�ados para mejorar
-					las habilidades y conocimientos de individuos y organizaciones en
-					diversas �reas. Con a�os de experiencia en la industria, nos
-					enorgullece ofrecer soluciones educativas personalizadas y
-					adaptadas a las necesidades de nuestros clientes.</p>
-			</div>
-		</section>
+		<p>Bienvenido/a a [Nombre de la empresa], líder en el campo de las
+			capacitaciones generales. Nos dedicamos a proporcionar programas de
+			capacitación de alta calidad diseñados para mejorar las habilidades y
+			conocimientos de individuos y organizaciones en diversas áreas. Con
+			años de experiencia en la industria, nos enorgullece ofrecer
+			soluciones educativas personalizadas y adaptadas a las necesidades de
+			nuestros clientes.</p>
 
-		<section class="services">
-			<div class="container">
-				<h2>Nuestros Servicios</h2>
-				<ul>
-					<li>Capacitaciones presenciales y en l�nea</li>
-					<li>Desarrollo de habilidades</li>
-					<li>Seminarios y conferencias</li>
-					<li>Consultor�a</li>
-				</ul>
-			</div>
-		</section>
+		<h2>Nuestro enfoque</h2>
 
-		<section class="contact">
-			<div class="container">
-				<h2>Cont�ctanos</h2>
-				<p>Si est�s interesado/a en nuestros servicios de capacitaci�n o
-					deseas obtener m�s informaci�n, no dudes en ponerte en contacto con
-					nosotros a trav�s de los siguientes medios:</p>
-				<ul>
-					<li>Direcci�n f�sica: [Direcci�n de la empresa]</li>
-					<li>N�mero de tel�fono: [N�mero de tel�fono]</li>
-					<li>Correo electr�nico: [Correo electr�nico de contacto]</li>
-				</ul>
-			</div>
-		</section>
-		<!-- Seccion Principal -->
-		<section id="">
+		<p>En [Nombre de la empresa], creemos en el poder de la educación
+			para impulsar el crecimiento y el desarrollo tanto a nivel personal
+			como profesional. Nuestro enfoque se basa en proporcionar
+			capacitaciones prácticas y relevantes que permitan a nuestros
+			participantes adquirir nuevas habilidades, mejorar su desempeño y
+			alcanzar sus metas.</p>
 
-			<div class="row">
-				<
-				<h2>[Nombre de la empresa] - Capacitaciones Generales</h2>
+		<h2>Nuestros servicios</h2>
 
-				<p>Bienvenido/a a [Nombre de la empresa], l�der en el campo de
-					las capacitaciones generales. Nos dedicamos a proporcionar
-					programas de capacitaci�n de alta calidad dise�ados para mejorar
-					las habilidades y conocimientos de individuos y organizaciones en
-					diversas �reas. Con a�os de experiencia en la industria, nos
-					enorgullece ofrecer soluciones educativas personalizadas y
-					adaptadas a las necesidades de nuestros clientes.</p>
+		<p>Capacitaciones presenciales y en línea: Ofrecemos una amplia
+			gama de cursos presenciales y en línea impartidos por expertos en sus
+			respectivos campos. Nuestros programas están diseñados para adaptarse
+			a diferentes niveles de conocimiento y necesidades específicas.</p>
 
-				<h2>Nuestro enfoque</h2>
+		<p>Desarrollo de habilidades: Brindamos talleres y capacitaciones
+			intensivas centradas en el desarrollo de habilidades clave, como
+			liderazgo, comunicación efectiva, trabajo en equipo, gestión del
+			tiempo y resolución de problemas.</p>
 
-				<p>En [Nombre de la empresa], creemos en el poder de la
-					educaci�n para impulsar el crecimiento y el desarrollo tanto a
-					nivel personal como profesional. Nuestro enfoque se basa en
-					proporcionar capacitaciones pr�cticas y relevantes que permitan a
-					nuestros participantes adquirir nuevas habilidades, mejorar su
-					desempe�o y alcanzar sus metas.</p>
+		<p>Seminarios y conferencias: Organizamos eventos educativos,
+			seminarios y conferencias en los que reunimos a profesionales
+			destacados para compartir sus conocimientos y experiencias con
+			nuestra audiencia.</p>
 
-				<h2>Nuestros servicios</h2>
+		<p>Consultoría: Además de nuestras capacitaciones, ofrecemos
+			servicios de consultoría para ayudar a las organizaciones a
+			identificar sus necesidades de capacitación, diseñar programas a
+			medida y evaluar los resultados obtenidos.</p>
 
-				<p>Capacitaciones presenciales y en l�nea: Ofrecemos una amplia
-					gama de cursos presenciales y en l�nea impartidos por expertos en
-					sus respectivos campos. Nuestros programas est�n dise�ados para
-					adaptarse a diferentes niveles de conocimiento y necesidades
-					espec�ficas.</p>
+		<h3>¿Por qué elegirnos?</h3>
 
-				<p>Desarrollo de habilidades: Brindamos talleres y
-					capacitaciones intensivas centradas en el desarrollo de habilidades
-					clave, como liderazgo, comunicaci�n efectiva, trabajo en equipo,
-					gesti�n del tiempo y resoluci�n de problemas.</p>
+		<p>Experiencia y conocimientos: Contamos con un equipo de
+			instructores y consultores altamente calificados y experimentados que
+			poseen un profundo conocimiento en sus respectivas áreas de
+			especialización.</p>
 
-				<p>Seminarios y conferencias: Organizamos eventos educativos,
-					seminarios y conferencias en los que reunimos a profesionales
-					destacados para compartir sus conocimientos y experiencias con
-					nuestra audiencia.</p>
+		<p>Enfoque personalizado: Entendemos que cada individuo y
+			organización es único, por lo que adaptamos nuestras capacitaciones
+			para satisfacer las necesidades específicas de cada cliente.</p>
 
-				<p>Consultor�a: Adem�s de nuestras capacitaciones, ofrecemos
-					servicios de consultor�a para ayudar a las organizaciones a
-					identificar sus necesidades de capacitaci�n, dise�ar programas a
-					medida y evaluar los resultados obtenidos.</p>
+		<p>Calidad y excelencia: Nos comprometemos a ofrecer programas de
+			capacitación de la más alta calidad, utilizando métodos de enseñanza
+			innovadores y materiales actualizados.</p>
 
-				<h3>�Por qu� elegirnos?</h3>
+		<p>Resultados medibles: Evaluamos el impacto de nuestras
+			capacitaciones y nos esforzamos por garantizar que nuestros
+			participantes logren resultados tangibles y mejoren su rendimiento.</p>
 
-				<p>Experiencia y conocimientos: Contamos con un equipo de
-					instructores y consultores altamente calificados y experimentados
-					que poseen un profundo conocimiento en sus respectivas �reas de
-					especializaci�n.</p>
+		<h3>Contáctanos</h3>
 
-				<p>Enfoque personalizado: Entendemos que cada individuo y
-					organizaci�n es �nico, por lo que adaptamos nuestras capacitaciones
-					para satisfacer las necesidades espec�ficas de cada cliente.</p>
+		<p>Si estás interesado/a en nuestros servicios de capacitación o
+			deseas obtener más información, no dudes en ponerte en contacto con
+			nosotros a través de los siguientes medios:</p>
 
-				<p>Calidad y excelencia: Nos comprometemos a ofrecer programas
-					de capacitaci�n de la m�s alta calidad, utilizando m�todos de
-					ense�anza innovadores y materiales actualizados.</p>
+		<p>Dirección física: [Dirección de la empresa] Número de teléfono:
+			[Número de teléfono] Correo electrónico: [Correo electrónico de
+			contacto] Estaremos encantados de responder a tus preguntas y
+			brindarte asesoramiento personalizado.</p>
 
-				<p>Resultados medibles: Evaluamos el impacto de nuestras
-					capacitaciones y nos esforzamos por garantizar que nuestros
-					participantes logren resultados tangibles y mejoren su rendimiento.
-				</p>
-
-				<h3>Cont�ctanos</h3>
-
-				<p>Si est�s interesado/a en nuestros servicios de capacitaci�n o
-					deseas obtener m�s informaci�n, no dudes en ponerte en contacto con
-					nosotros a trav�s de los siguientes medios:</p>
-
-				<p>Direcci�n f�sica: [Direcci�n de la empresa] N�mero de
-					tel�fono: [N�mero de tel�fono] Correo electr�nico: [Correo
-					electr�nico de contacto] Estaremos encantados de responder a tus
-					preguntas y brindarte asesoramiento personalizado.</p>
-
-				<p>En [Nombre de la empresa], estamos comprometidos con tu
-					crecimiento y �xito. Únete a nosotros y descubre c�mo nuestras
-					capacitaciones generales pueden impulsar tu desarrollo profesional
-					y personal.</p>
-			</div>
+		<p>En [Nombre de la empresa], estamos comprometidos con tu
+			crecimiento y éxito. Únete a nosotros y descubre cómo nuestras
+			capacitaciones generales pueden impulsar tu desarrollo profesional y
+			personal.</p>
 		</section>
 	</div>
 	<!-- Inicio Footer -->
