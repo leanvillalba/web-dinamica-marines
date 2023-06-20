@@ -15,6 +15,8 @@
 	integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
 	crossorigin="anonymous"></script>
 </head>
+
+
 <body>
 	<!-- Header -->
 	<header>
@@ -43,35 +45,36 @@
 	</header>
 	<!-- Fin Header -->
 	<!-- Carrousel -->
-	<div id="carouselExample" class="carousel slide">
+	<div id="carouselExampleInterval" class="carousel slide"
+		data-bs-ride="carousel">
 		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img src="imagenes/capacitacion001.jpg" class="d-block w-100 h-50" alt="Imagen de Ejemplo de Slider" >
+			<div class="carousel-item active" data-bs-interval="3000">
+				<img src="imagenes/capacitacion001.jpg" class="d-block w-100" alt="...">
 			</div>
-			<div class="carousel-item">
-				<img src="imagenes/capacitacion002.jpg" class="d-block w-100 h-50" alt="Imagen de Ejemplo de Slider 2">
+			<div class="carousel-item" data-bs-interval="3000">
+				<img src="imagenes/capacitacion002.jpg" class="d-block w-100" alt="...">
 			</div>
-			<div class="carousel-item">
-				<img src="imagenes/capacitacion003.jpg" class="d-block w-100 h-50" alt="Imagen de Ejemplo de Slider 3">
+			<div class="carousel-item" data-bs-interval="3000">
+				<img src="imagenes/capacitacion003.jpg" class="d-block w-100" alt="...">
 			</div>
 		</div>
 		<button class="carousel-control-prev" type="button"
-			data-bs-target="#carouselExample" data-bs-slide="prev">
+			data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
 			<span class="carousel-control-prev-icon" aria-hidden="true"></span> <span
 				class="visually-hidden">Previous</span>
 		</button>
 		<button class="carousel-control-next" type="button"
-			data-bs-target="#carouselExample" data-bs-slide="next">
+			data-bs-target="#carouselExampleInterval" data-bs-slide="next">
 			<span class="carousel-control-next-icon" aria-hidden="true"></span> <span
 				class="visually-hidden">Next</span>
 		</button>
 	</div>
 	<!-- Fin de Carrousel -->
 	<!-- Container principal -->
-	<div class="container">
-		<h2>[Nombre de la empresa] - Capacitaciones Generales</h2>
+	<div class="container mt-5">
+		<h2>Capacitaciones Espaciales - Capacitaciones Generales</h2>
 
-		<p>Bienvenido/a a [Nombre de la empresa], líder en el campo de las
+		<p>Bienvenido/a a Capacitaciones Espaciales, líder en el campo de las
 			capacitaciones generales. Nos dedicamos a proporcionar programas de
 			capacitación de alta calidad diseñados para mejorar las habilidades y
 			conocimientos de individuos y organizaciones en diversas áreas. Con
@@ -81,7 +84,7 @@
 
 		<h2>Nuestro enfoque</h2>
 
-		<p>En [Nombre de la empresa], creemos en el poder de la educación
+		<p>En Capacitaciones Espaciales, creemos en el poder de la educación
 			para impulsar el crecimiento y el desarrollo tanto a nivel personal
 			como profesional. Nuestro enfoque se basa en proporcionar
 			capacitaciones prácticas y relevantes que permitan a nuestros
@@ -135,12 +138,11 @@
 			deseas obtener más información, no dudes en ponerte en contacto con
 			nosotros a través de los siguientes medios:</p>
 
-		<p>Dirección física: [Dirección de la empresa] Número de teléfono:
-			[Número de teléfono] Correo electrónico: [Correo electrónico de
-			contacto] Estaremos encantados de responder a tus preguntas y
+		<p>Dirección física: Avenida Siempre Viva 123 Número de teléfono: 
+			+569987451235 Correo electrónico: MarinesEspaciales@gmail.com Estaremos encantados de responder a tus preguntas y
 			brindarte asesoramiento personalizado.</p>
 
-		<p>En [Nombre de la empresa], estamos comprometidos con tu
+		<p>En Capacitaciones Espaciales, estamos comprometidos con tu
 			crecimiento y éxito. Únete a nosotros y descubre cómo nuestras
 			capacitaciones generales pueden impulsar tu desarrollo profesional y
 			personal.</p>
@@ -156,6 +158,7 @@
 			</div>
 		</div>
 	</footer>
+
 	<script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
