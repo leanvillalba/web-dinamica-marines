@@ -50,8 +50,7 @@
 				<div class="row gx-lg-5 align-items-center">
 					<div class="col-lg-6 mb-5 mb-lg-0">
 						<h1 class="my-5 display-3 fw-bold ls-tight">
-							Bienvenidos a <br /> <span class="text-primary">Asesorías
-								Marines</span>
+							Escribenos <br /> <span class="text-primary">te asesoramos</span>
 						</h1>
 						<p style="color: hsl(217, 10%, 50.8%)">Lorem ipsum dolor sit
 							amet consectetur adipisicing elit. Eveniet, itaque accusantium
