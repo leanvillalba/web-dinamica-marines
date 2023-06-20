@@ -10,7 +10,7 @@ public class Usuario {
     public Usuario() {
     }
 
-    public Usuario(String nombre, String apellido1, String apellido2, String fechaDeNacimiento, int run) {
+    public Usuario(String nombre, String apellido1, String apellido2, String fechaDeNacimiento, Integer run) {
         this.nombre = nombre;
         this.apellido1 = apellido1;
         this.apellido2 = apellido2;

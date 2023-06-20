@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+	pageEncoding="UTF-8"%>
 <%@ page import="entity.*"%>
 <%@page import="java.util.ArrayList" %>
 <!DOCTYPE html>
@@ -24,7 +24,7 @@
 	<nav class="navbar navbar-expand-lg bg-body-tertiary"
 		data-bs-theme="dark">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="index.jsp">Sistema de Capacitaci髇</a>
+			<a class="navbar-brand" href="index.jsp">Sistema de Capacitaci贸n</a>
 			<button class="navbar-toggler" type="button"
 				data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
 				aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -36,8 +36,8 @@
 					<a class="nav-link" aria-current="page" href="index.jsp">Inicio</a>
 					<a class="nav-link" href="contacto.jsp">Contacto</a> <a
 						class="nav-link" href="crearCapacitacion.jsp">Crear
-						Capacitaci髇</a> <a class="nav-link active" href="listarCapacitacion.jsp">Listar
-						Capacitaci髇</a> <a class="nav-link" href="login.jsp">Login</a>
+						Capacitaci贸n</a> <a class="nav-link active" href="listarCapacitacion.jsp">Listar
+						Capacitaci贸n</a> <a class="nav-link" href="login.jsp">Login</a>
 				</div>
 			</div>
 		</div>
@@ -47,12 +47,12 @@
 		<table class="table">
 			<thead class="table-dark">
 				<tr>
-					<th>ID Capacitaci髇</th>
+					<th>ID Capacitaci贸n</th>
 					<th>RUT Empresa</th>
 					<th>Dia</th>
 					<th>Hora</th>
 					<th>Lugar</th>
-					<th>Duraci髇</th>
+					<th>Duraci贸n</th>
 					<th>Cantidad de Asistentes</th>
 				</tr>
 			</thead>
