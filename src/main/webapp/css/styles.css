@@ -1,49 +1,46 @@
 @charset "ISO-8859-1";
 
-#footer{
-	background-color: #2B3035;
+#footer {
+	background-color: #2b3035;
 	border: 1px solid black;
 	color: white;
 }
 
-#seccion{
+#seccion {
 	border: 1px solid #ccc;
 	min-height: 100vh;
 }
 
 #seccion p {
 	padding: 10px;
-	
 }
 
-.login{
+.login {
 	border: 2px dashed grey;
 	text-align: center;
 	padding: 15px;
 	margin: 10px;
 }
 
-.login input[type="button"]{
+.login input[type='button'] {
 	margin-top: 15px;
 	padding: 15px;
 	margin: 10px;
-	background-color: #2B3035;
+	background-color: #2b3035;
 }
-
 
 /* ESTILOS FORMULARIO DE CONTACTO */
-h1{
-	text-align:center;
+h1 {
+	text-align: center;
 }
-.contact_div{
-	height:83.5vh;
-	display:flex;
-	justify-content:center;
-	
+.contact_div {
+	height: 83.5vh;
+	display: flex;
+	justify-content: center;
 }
-.contact_form{
-	text-align:center;
-	margin:auto;
-	width:500px;
+.contact_form {
+	text-align: center;
+	margin: auto;
+	width: 500px;
 	height: 400px;
 }
