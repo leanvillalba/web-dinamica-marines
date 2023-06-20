@@ -5,6 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <link rel="stylesheet" href="css/styles.css" />
+<title>Contacto</title>
 <link
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
 	rel="stylesheet"
@@ -14,9 +15,9 @@
 	src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
 	integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
 	crossorigin="anonymous"></script>
-<title>Insert title here</title>
 </head>
 <body>
+	<!-- Header -->
 	<header>
 		<!-- NavBar Bootstrap 5 Component -->
 		<nav class="navbar navbar-expand-lg bg-body-tertiary"
@@ -35,18 +36,13 @@
 						<a class="nav-link" href="contacto.jsp">Contacto</a> <a
 							class="nav-link" href="crearCapacitacion.jsp">Crear
 							Capacitación</a> <a class="nav-link" href="listarCapacitacion.jsp">Listar
-							Capacitación</a> 
-						<a class="nav-link" href="login.jsp">Login</a>
+							Capacitación</a> <a class="nav-link" href="login.jsp">Login</a>
 					</div>
 				</div>
 			</div>
 		</nav>
 	</header>
-	<div class="container">
-		<!-- Header -->
-
-
-		<section class="" id="seccion">
+			<section class="" id="seccion">
 			<!-- Jumbotron -->
 			<div class=" container px-4 py-5 px-md-5 text-center text-lg-start"
 				style="background-color: hsl(0, 0%, 96%)">
@@ -54,8 +50,7 @@
 				<div class="row gx-lg-5 align-items-center">
 					<div class="col-lg-6 mb-5 mb-lg-0">
 						<h1 class="my-5 display-3 fw-bold ls-tight">
-							Bienvenidos a <br /> <span class="text-primary">Asesorías
-								Marines</span>
+							Crear nuevo <br /> <span class="text-primary">Usuario</span>
 						</h1>
 						<p style="color: hsl(217, 10%, 50.8%)">Lorem ipsum dolor sit
 							amet consectetur adipisicing elit. Eveniet, itaque accusantium
@@ -67,32 +62,50 @@
 					<div class="col-lg-6 mb-5 mb-lg-0">
 						<div class="card">
 							<div class="card-body py-5 px-md-5">
-								<form action="LoginServlet" method="post">
+								<form action="CreateUserServlet" method="post">
 
-
-									<!-- Usuario input -->
+									<!-- nombre input -->
 									<div class="form-outline mb-4">
 										<input type="text" id="form3Example3" class="form-control"
-											name="usuario" required placeholder="Ingrese Usuario" />
+											name="nombre" required placeholder="Nombre" />
 									</div>
 
-									<!-- Password input -->
+									<!-- apellido 1 input -->
 									<div class="form-outline mb-4">
-										<input type="password" id="form3Example4" class="form-control"
-											name="pass" required placeholder="Ingrese Contraseña" />
+										<input type="text" id="form3Example4" class="form-control"
+											name="apellido1" required placeholder="Apellido 1" />
+									</div>
+									<!-- apellido 2 input -->
+									<div class="form-outline mb-4">
+										<input type="text" id="form3Example4" class="form-control"
+											name="apellido2" required placeholder="Apellido 2" />
 									</div>
 
-									<!-- Submit button -->
-									<div>
-									<button type="submit" class="btn btn-primary btn-block mb-4">
-										Log In
-									</button>
-									<a href="createUserForm.jsp" class="">
-										o Registrarse
-									</a>
+									<!-- Fecha de nacimiento input -->
+									<div class="form-outline mb-4">
+										<input type="text" id="form3Example4" class="form-control"
+											name="fechaNacimiento" required placeholder="Fecha de nacimiento" />
 									</div>
 									
+									<!-- RUN input -->
+									<div class="form-outline mb-4">
+										<input type="text" id="form3Example4" class="form-control"
+											name="run" required placeholder="RUN" />
+									</div>
+									
+									<select class="form-select mb-4" aria-label="Default select example">
+									  <option selected>Seleccione tipo de usuario: </option>
+									  <option value="1">Administrativo</option>
+									  <option value="2">Profesional</option>
+									  <option value="3">Cliente</option>
+									</select>
+																		<!-- Submit button -->
+									<div>
+									<button type="submit" class="btn btn-primary btn-block mb-4">
+										Registrar
+									</button>
 
+									</div>
 
 								</form>
 							</div>
@@ -103,10 +116,8 @@
 			</div>
 			<!-- Jumbotron -->
 		</section>
-		<!-- Section: Fin Login -->
-
-	</div>
-	<!-- Inicio Footer -->
+	
+		<!-- Inicio Footer -->
 	<footer id="footer">
 		<div class="">
 			<div class="col text-center">
@@ -116,5 +127,9 @@
 			</div>
 		</div>
 	</footer>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+		crossorigin="anonymous"></script>
 </body>
 </html>
