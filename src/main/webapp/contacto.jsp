@@ -36,28 +36,31 @@
 						<a class="nav-link active" href="contacto.jsp">Contacto</a> <a
 							class="nav-link" href="crearCapacitacion.jsp">Crear
 							Capacitación</a> <a class="nav-link" href="listarCapacitacion.jsp">Listar
-							Capacitación</a> <a class="nav-link" href="login.jsp">Login</a>
+							Capacitación</a> <a class="nav-link"
+							href="listarUsuarios.jsp">Listar Usuarios</a> <a
+							class="nav-link" href="login.jsp">Login</a>
 					</div>
 				</div>
 			</div>
 		</nav>
 	</header>
 	<section class="" id="seccion">
-			<!-- Jumbotron -->
-			<div class=" container px-4 py-5 px-md-5 text-center text-lg-start"
-				style="background-color: hsl(0, 0%, 96%)">
+		<!-- Jumbotron -->
+		<div class=" container px-4 py-5 px-md-5 text-center text-lg-start"
+			style="background-color: hsl(0, 0%, 96%)">
 
-				<div class="row gx-lg-5 align-items-center">
-					<div class="col-lg-6 mb-5 mb-lg-0">
-						<h1 class="my-5 display-3 fw-bold ls-tight">
-							Escribenos <br /> <span class="text-primary">te asesoramos</span>
-						</h1>
-						<p style="color: hsl(217, 10%, 50.8%)">Lorem ipsum dolor sit
-							amet consectetur adipisicing elit. Eveniet, itaque accusantium
-							odio, soluta, corrupti aliquam quibusdam tempora at cupiditate
-							quis eum maiores libero veritatis? Dicta facilis sint aliquid
-							ipsum atque?</p>
-					</div>
+			<div class="row gx-lg-5 align-items-center">
+				<div class="col-lg-6 mb-5 mb-lg-0">
+					<h1 class="my-5 display-3 fw-bold ls-tight">
+						Escribenos <br /> <span class="text-primary">te asesoramos</span>
+					</h1>
+					<p style="color: hsl(217, 10%, 50.8%)">Lorem ipsum dolor sit
+						amet consectetur adipisicing elit. Eveniet, itaque accusantium
+						odio, soluta, corrupti aliquam quibusdam tempora at cupiditate
+						quis eum maiores libero veritatis? Dicta facilis sint aliquid
+						ipsum atque?</p>
+				</div>
+
 
 					<div class="col-lg-6 mb-5 mb-lg-0">
 						<div class="card">
@@ -65,16 +68,18 @@
 								<form action="ContactoServlet" method="post">
 
 
-									<!-- Usuario input -->
-									<div class="form-outline mb-4">
-										<input type="text" id="form3Example3" class="form-control"
-											name="nombreContacto" required placeholder="Nombre" />
-									</div>
-									<!-- empresa input -->
-									<div class="form-outline mb-4">
-										<input type="text" id="form3Example3" class="form-control"
-											name="nombreEmpresa" required placeholder="Empresa" />
-									</div>
+
+								<!-- Usuario input -->
+								<div class="form-outline mb-4">
+									<input type="text" id="form3Example3" class="form-control"
+										name="nombreContacto" required placeholder="Nombre" />
+								</div>
+								<!-- empresa input -->
+								<div class="form-outline mb-4">
+									<input type="text" id="form3Example3" class="form-control"
+										name="nombreEmpresa" required placeholder="Empresa" />
+								</div>
+
 
 									<!-- Password input -->
 									<div class="form-outline mb-4">
@@ -86,24 +91,25 @@
 									  <label for="floatingTextarea2">Comments</label>
 									</div>
 
-									<!-- Submit button -->
-									<div>
+
+								<!-- Submit button -->
+								<div>
 									<button type="submit" class="btn btn-primary btn-block mb-4">
+
 										Enviar
 									</button>
 									</div>
 									
 
-
-								</form>
-							</div>
+							</form>
 						</div>
 					</div>
 				</div>
-
 			</div>
-			<!-- Jumbotron -->
-		</section>
+
+		</div>
+		<!-- Jumbotron -->
+	</section>
 
 
 	<!-- Inicio Footer -->
