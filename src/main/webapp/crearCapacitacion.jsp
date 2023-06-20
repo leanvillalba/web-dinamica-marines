@@ -35,10 +35,10 @@
 						<a class="nav-link" aria-current="page" href="index.jsp">Inicio</a>
 						<a class="nav-link" href="contacto.jsp">Contacto</a> <a
 							class="nav-link active" href="crearCapacitacion.jsp">Crear
+							Capacitación</a> <a class="nav-link" href="listarCapacitacion.jsp">Listar
 							Capacitación</a> <a class="nav-link"
-							href="listarCapacitacion.jsp">Listar
-							Capacitación</a> 
-						<a class="nav-link" href="login.jsp">Login</a>
+							href="listarUsuarios.jsp">Listar Usuarios</a> <a
+							class="nav-link" href="login.jsp">Login</a>
 					</div>
 				</div>
 			</div>
@@ -46,82 +46,90 @@
 	</header>
 	<section id="seccion">
 		<!-- Jumbotron -->
-			<div class=" container px-4 py-5 px-md-5 text-center text-lg-start"
-				style="background-color: hsl(0, 0%, 96%)">
+		<div class=" container px-4 py-5 px-md-5 text-center text-lg-start"
+			style="background-color: hsl(0, 0%, 96%)">
 
-				<div class="row gx-lg-5 align-items-center">
-					<div class="col-lg-6 mb-5 mb-lg-0">
-						<h1 class="my-5 display-3 fw-bold ls-tight">
-							Estimado Cliente <br /> <span class="text-primary">Ingrese su Capacitación</span>
-						</h1>
-						<p style="color: hsl(217, 10%, 50.8%)">Lorem ipsum dolor sit
-							amet consectetur adipisicing elit. Eveniet, itaque accusantium
-							odio, soluta, corrupti aliquam quibusdam tempora at cupiditate
-							quis eum maiores libero veritatis? Dicta facilis sint aliquid
-							ipsum atque?</p>
-					</div>
+			<div class="row gx-lg-5 align-items-center">
+				<div class="col-lg-6 mb-5 mb-lg-0">
+					<h1 class="my-5 display-3 fw-bold ls-tight">
+						Estimado Cliente <br /> <span class="text-primary">Ingrese
+							su Capacitación</span>
+					</h1>
+					<p style="color: hsl(217, 10%, 50.8%)">Lorem ipsum dolor sit
+						amet consectetur adipisicing elit. Eveniet, itaque accusantium
+						odio, soluta, corrupti aliquam quibusdam tempora at cupiditate
+						quis eum maiores libero veritatis? Dicta facilis sint aliquid
+						ipsum atque?</p>
+				</div>
 
-					<div class="col-lg-6 mb-5 mb-lg-0">
-						<div class="card">
-							<div class="card-body py-5 px-md-5">
-								<form action="RegistroCapacitacionServlet" method="post">
+				<div class="col-lg-6 mb-5 mb-lg-0">
+					<div class="card">
+						<div class="card-body py-5 px-md-5">
+							<form action="RegistroCapacitacionServlet" method="post">
 
-									<!-- idCapacitacion input -->
-									<div class="form-outline mb-4">
-										<input type="text" id="form3Example3" class="form-control"
-											name="idCapacitacion" required placeholder="Ingrese ID Capacitación" />
-									</div>
-									
-									<!-- rutCliente input -->
-									<div class="form-outline mb-4">
-										<input type="text" id="form3Example3" class="form-control"
-											name="rutEmpresa" required placeholder="Ingrese RUT de la Empresa" />
-									</div>
+								<!-- idCapacitacion input -->
+								<div class="form-outline mb-4">
+									<input type="text" id="form3Example3" class="form-control"
+										name="idCapacitacion" required
+										placeholder="Ingrese ID Capacitación" />
+								</div>
 
-									<!-- dia input -->
-									<div class="form-outline mb-4">
-										<input type="text" id="form3Example3" class="form-control"
-											name="diaCapacitacion" required placeholder="Ingrese el Día de la capacitación" />
-									</div>
-									
-									<!-- hora input -->
-									<div class="form-outline mb-4">
-										<input type="text" id="form3Example3" class="form-control"
-											name="horaCapacitacion" required placeholder="Ingrese la Hora de la capacitación" />
-									</div>
-									
-									<!-- lugar input -->
-									<div class="form-outline mb-4">
-										<input type="text" id="form3Example3" class="form-control"
-											name="lugarCapacitacion" required placeholder="Ingrese el Lugar de la capacitación" />
-									</div>
-									
-									<!-- duracion input -->
-									<div class="form-outline mb-4">
-										<input type="text" id="form3Example3" class="form-control"
-											name="duracion" required placeholder="Ingrese la Duración de la capacitación (En Minutos)" />
-									</div>
-									
-									<!-- cantidadAsistentes input -->
-									<div class="form-outline mb-4">
-										<input type="text" id="form3Example3" class="form-control"
-											name="cantidadAsistentes" required placeholder="Ingrese Cantidad de Asistentes" />
-									</div>
+								<!-- rutCliente input -->
+								<div class="form-outline mb-4">
+									<input type="text" id="form3Example3" class="form-control"
+										name="rutEmpresa" required
+										placeholder="Ingrese RUT de la Empresa" />
+								</div>
 
-									<!-- Submit button -->
-									<button type="submit" class="btn btn-primary btn-block mb-4">
-										Enviar</button>
+								<!-- dia input -->
+								<div class="form-outline mb-4">
+									<input type="text" id="form3Example3" class="form-control"
+										name="diaCapacitacion" required
+										placeholder="Ingrese el Día de la capacitación" />
+								</div>
 
-								</form>
-							</div>
+								<!-- hora input -->
+								<div class="form-outline mb-4">
+									<input type="text" id="form3Example3" class="form-control"
+										name="horaCapacitacion" required
+										placeholder="Ingrese la Hora de la capacitación" />
+								</div>
+
+								<!-- lugar input -->
+								<div class="form-outline mb-4">
+									<input type="text" id="form3Example3" class="form-control"
+										name="lugarCapacitacion" required
+										placeholder="Ingrese el Lugar de la capacitación" />
+								</div>
+
+								<!-- duracion input -->
+								<div class="form-outline mb-4">
+									<input type="text" id="form3Example3" class="form-control"
+										name="duracion" required
+										placeholder="Ingrese la Duración de la capacitación (En Minutos)" />
+								</div>
+
+								<!-- cantidadAsistentes input -->
+								<div class="form-outline mb-4">
+									<input type="text" id="form3Example3" class="form-control"
+										name="cantidadAsistentes" required
+										placeholder="Ingrese Cantidad de Asistentes" />
+								</div>
+
+								<!-- Submit button -->
+								<button type="submit" class="btn btn-primary btn-block mb-4">
+									Enviar</button>
+
+							</form>
 						</div>
 					</div>
 				</div>
-
 			</div>
-			<!-- Jumbotron -->		
+
+		</div>
+		<!-- Jumbotron -->
 	</section>
-	
+
 	<!-- Inicio Footer -->
 	<footer id="footer">
 		<div class="">

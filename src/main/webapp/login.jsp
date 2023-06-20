@@ -35,8 +35,9 @@
 						<a class="nav-link" href="contacto.jsp">Contacto</a> <a
 							class="nav-link" href="crearCapacitacion.jsp">Crear
 							Capacitación</a> <a class="nav-link" href="listarCapacitacion.jsp">Listar
-							Capacitación</a> 
-						<a class="nav-link active" href="login.jsp">Login</a>
+							Capacitación</a> <a class="nav-link"
+							href="listarUsuarios.jsp">Listar Usuarios</a> <a
+							class="nav-link active" href="login.jsp">Login</a>
 					</div>
 				</div>
 			</div>
@@ -84,14 +85,11 @@
 
 									<!-- Submit button -->
 									<div>
-									<button type="submit" class="btn btn-primary btn-block mb-4">
-										Log In
-									</button>
-									<a href="createUserForm.jsp" class="">
-										o Registrarse
-									</a>
+										<button type="submit" class="btn btn-primary btn-block mb-4">
+											Log In</button>
+										<a href="createUserForm.jsp" class=""> o Registrarse </a>
 									</div>
-									
+
 
 
 								</form>

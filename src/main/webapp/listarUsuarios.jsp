@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="UTF-8"%>
 <%@ page import="entity.*"%>
-<%@page import="java.util.ArrayList" %>
+<%@page import="java.util.ArrayList"%>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -36,8 +36,10 @@
 					<a class="nav-link" aria-current="page" href="index.jsp">Inicio</a>
 					<a class="nav-link" href="contacto.jsp">Contacto</a> <a
 						class="nav-link" href="crearCapacitacion.jsp">Crear
-						Capacitación</a> <a class="nav-link active" href="listarCapacitacion.jsp">Listar
-						Capacitación</a> <a class="nav-link" href="login.jsp">Login</a>
+						Capacitación</a> <a class="nav-link "
+						href="listarCapacitacion.jsp">Listar Capacitación</a> <a
+						class="nav-link active" href="listarUsuarios.jsp">Listar
+						Usuarios</a> <a class="nav-link" href="login.jsp">Login</a>
 				</div>
 			</div>
 		</div>
@@ -55,26 +57,25 @@
 				</tr>
 			</thead>
 			<tbody>
-			<%
-			
-			ArrayList<Usuario> usuarios = (ArrayList<Usuario>)request.getAttribute("usuarios");
-			if(usuarios != null) {
-				
-			for(Usuario c : usuarios){
-			%>
+				<%
+				ArrayList<Usuario> usuarios = (ArrayList<Usuario>) request.getAttribute("usuarios");
+				if (usuarios != null) {
+
+					for (Usuario c : usuarios) {
+				%>
 				<tr>
-					<td><%=c.getNombre() %></td>
-					<td><%=c.getApellido1() %></td>
-					<td><%=c.getApellido2() %></td>
-					<td><%=c.getFechaDeNacimiento() %></td>
+					<td><%=c.getNombre()%></td>
+					<td><%=c.getApellido1()%></td>
+					<td><%=c.getApellido2()%></td>
+					<td><%=c.getFechaDeNacimiento()%></td>
 					<td><%=c.getRun()%></td>
 				</tr>
 				<%
-			}
-			}  // Mover la llave-.-
+				}
+				} // Mover la llave-.-
 				%>
-				
-				
+
+
 			</tbody>
 		</table>
 	</section>

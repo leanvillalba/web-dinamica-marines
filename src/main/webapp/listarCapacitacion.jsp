@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="UTF-8"%>
 <%@ page import="entity.*"%>
-<%@page import="java.util.ArrayList" %>
+<%@page import="java.util.ArrayList"%>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -36,8 +36,10 @@
 					<a class="nav-link" aria-current="page" href="index.jsp">Inicio</a>
 					<a class="nav-link" href="contacto.jsp">Contacto</a> <a
 						class="nav-link" href="crearCapacitacion.jsp">Crear
-						Capacitación</a> <a class="nav-link active" href="listarCapacitacion.jsp">Listar
-						Capacitación</a> <a class="nav-link" href="login.jsp">Login</a>
+						Capacitación</a> <a class="nav-link active"
+						href="listarCapacitacion.jsp">Listar Capacitación</a> <a
+						class="nav-link" href="listarUsuarios.jsp">Listar
+						Usuarios</a> <a class="nav-link" href="login.jsp">Login</a>
 				</div>
 			</div>
 		</div>
@@ -57,29 +59,28 @@
 				</tr>
 			</thead>
 			<tbody>
-			<%
-			
-			ArrayList<Capacitacion> capacitaciones = (ArrayList<Capacitacion>)request.getAttribute("capacitaciones");
-			if(capacitaciones != null) {
-				
-			for(Capacitacion c : capacitaciones){
-			%>
+				<%
+				ArrayList<Capacitacion> capacitaciones = (ArrayList<Capacitacion>) request.getAttribute("capacitaciones");
+				if (capacitaciones != null) {
+
+					for (Capacitacion c : capacitaciones) {
+				%>
 				<tr>
-					<td><%=c.getIdCapacitacion() %></td>
-					<td><%=c.getRutCliente() %></td>
-					<td><%=c.getDia() %></td>
-					<td><%=c.getHora() %></td>
+					<td><%=c.getIdCapacitacion()%></td>
+					<td><%=c.getRutCliente()%></td>
+					<td><%=c.getDia()%></td>
+					<td><%=c.getHora()%></td>
 					<td><%=c.getLugar()%></td>
 					<td><%=c.getDuracion()%></td>
 					<td><%=c.getCantidadDeAsistentes()%></td>
-					
+
 				</tr>
 				<%
-			}
-			}  // Mover la llave-.-
+				}
+				} // Mover la llave-.-
 				%>
-				
-				
+
+
 			</tbody>
 		</table>
 	</section>

@@ -37,7 +37,9 @@
 						<a class="nav-link" href="contacto.jsp">Contacto</a> <a
 							class="nav-link" href="crearCapacitacion.jsp">Crear
 							Capacitación</a> <a class="nav-link" href="listarCapacitacion.jsp">Listar
-							Capacitación</a> <a class="nav-link" href="login.jsp">Login</a>
+							Capacitación</a> <a class="nav-link"
+							href="listarUsuarios.jsp">Listar Usuarios</a> <a
+							class="nav-link" href="login.jsp">Login</a>
 					</div>
 				</div>
 			</div>
@@ -49,13 +51,16 @@
 		data-bs-ride="carousel">
 		<div class="carousel-inner">
 			<div class="carousel-item active" data-bs-interval="3000">
-				<img src="imagenes/capacitacion001.jpg" class="d-block w-100" alt="...">
+				<img src="imagenes/capacitacion001.jpg" class="d-block w-100"
+					alt="...">
 			</div>
 			<div class="carousel-item" data-bs-interval="3000">
-				<img src="imagenes/capacitacion002.jpg" class="d-block w-100" alt="...">
+				<img src="imagenes/capacitacion002.jpg" class="d-block w-100"
+					alt="...">
 			</div>
 			<div class="carousel-item" data-bs-interval="3000">
-				<img src="imagenes/capacitacion003.jpg" class="d-block w-100" alt="...">
+				<img src="imagenes/capacitacion003.jpg" class="d-block w-100"
+					alt="...">
 			</div>
 		</div>
 		<button class="carousel-control-prev" type="button"
@@ -74,19 +79,19 @@
 	<div class="container mt-5">
 		<h2>Capacitaciones Espaciales - Capacitaciones Generales</h2>
 
-		<p>Bienvenido/a a Capacitaciones Espaciales, líder en el campo de las
-			capacitaciones generales. Nos dedicamos a proporcionar programas de
-			capacitación de alta calidad diseñados para mejorar las habilidades y
-			conocimientos de individuos y organizaciones en diversas áreas. Con
-			años de experiencia en la industria, nos enorgullece ofrecer
-			soluciones educativas personalizadas y adaptadas a las necesidades de
-			nuestros clientes.</p>
+		<p>Bienvenido/a a Capacitaciones Espaciales, líder en el campo de
+			las capacitaciones generales. Nos dedicamos a proporcionar programas
+			de capacitación de alta calidad diseñados para mejorar las
+			habilidades y conocimientos de individuos y organizaciones en
+			diversas áreas. Con años de experiencia en la industria, nos
+			enorgullece ofrecer soluciones educativas personalizadas y adaptadas
+			a las necesidades de nuestros clientes.</p>
 
 		<h2>Nuestro enfoque</h2>
 
-		<p>En Capacitaciones Espaciales, creemos en el poder de la educación
-			para impulsar el crecimiento y el desarrollo tanto a nivel personal
-			como profesional. Nuestro enfoque se basa en proporcionar
+		<p>En Capacitaciones Espaciales, creemos en el poder de la
+			educación para impulsar el crecimiento y el desarrollo tanto a nivel
+			personal como profesional. Nuestro enfoque se basa en proporcionar
 			capacitaciones prácticas y relevantes que permitan a nuestros
 			participantes adquirir nuevas habilidades, mejorar su desempeño y
 			alcanzar sus metas.</p>
@@ -138,9 +143,10 @@
 			deseas obtener más información, no dudes en ponerte en contacto con
 			nosotros a través de los siguientes medios:</p>
 
-		<p>Dirección física: Avenida Siempre Viva 123 Número de teléfono: 
-			+569987451235 Correo electrónico: MarinesEspaciales@gmail.com Estaremos encantados de responder a tus preguntas y
-			brindarte asesoramiento personalizado.</p>
+		<p>Dirección física: Avenida Siempre Viva 123 Número de teléfono:
+			+569987451235 Correo electrónico: MarinesEspaciales@gmail.com
+			Estaremos encantados de responder a tus preguntas y brindarte
+			asesoramiento personalizado.</p>
 
 		<p>En Capacitaciones Espaciales, estamos comprometidos con tu
 			crecimiento y éxito. Únete a nosotros y descubre cómo nuestras
