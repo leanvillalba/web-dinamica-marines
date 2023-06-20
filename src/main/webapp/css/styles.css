@@ -47,7 +47,6 @@ h1 {
 	height: 400px;
 }
 
-#carouselExample{
-	width: 100%;
-	heigth: 500px;
+#carouselExampleInterval .carousel-item img{
+	height: 100vh;
 }
