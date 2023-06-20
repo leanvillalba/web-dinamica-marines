@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
+<%@ page import="entity.*"%>
+<%@page import="java.util.ArrayList" %>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -31,18 +33,55 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
-					<a class="nav-link active" aria-current="page" href="index.jsp">Inicio</a>
+					<a class="nav-link" aria-current="page" href="index.jsp">Inicio</a>
 					<a class="nav-link" href="contacto.jsp">Contacto</a> <a
 						class="nav-link" href="crearCapacitacion.jsp">Crear
-						Capacitación</a> <a class="nav-link" href="listarCapacitacion.jsp">Listar
+						Capacitación</a> <a class="nav-link active" href="listarCapacitacion.jsp">Listar
 						Capacitación</a> <a class="nav-link" href="login.jsp">Login</a>
 				</div>
 			</div>
 		</div>
 	</nav>
 	<section id="seccion">
-	<h1>Lista de clientes:</h1>
-	<h2>agregar lista en: listarCapacitacion.jsp</h2>
+
+		<table class="table">
+			<thead class="table-dark">
+				<tr>
+					<th>ID Capacitación</th>
+					<th>RUT Empresa</th>
+					<th>Dia</th>
+					<th>Hora</th>
+					<th>Lugar</th>
+					<th>Duración</th>
+					<th>Cantidad de Asistentes</th>
+				</tr>
+			</thead>
+			<tbody>
+			<%
+			
+			ArrayList<Capacitacion> capacitaciones = (ArrayList<Capacitacion>)request.getAttribute("capacitaciones");
+			if(capacitaciones != null) {
+				
+			for(Capacitacion c : capacitaciones){
+			%>
+				<tr>
+					<td><%=c.getIdCapacitacion() %></td>
+					<td><%=c.getRutCliente() %></td>
+					<td><%=c.getDia() %></td>
+					<td><%=c.getHora() %></td>
+					<td><%=c.getLugar()%></td>
+					<td><%=c.getDuracion()%></td>
+					<td><%=c.getCantidadDeAsistentes()%></td>
+					
+				</tr>
+				<%
+			}
+			}  // Mover la llave-.-
+				%>
+				
+				
+			</tbody>
+		</table>
 	</section>
 	<!-- Inicio Footer -->
 	<footer id="footer">

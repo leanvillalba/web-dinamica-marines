@@ -32,9 +32,9 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div class="navbar-nav">
-						<a class="nav-link active" aria-current="page" href="index.jsp">Inicio</a>
+						<a class="nav-link" aria-current="page" href="index.jsp">Inicio</a>
 						<a class="nav-link" href="contacto.jsp">Contacto</a> <a
-							class="nav-link" href="crearCapacitacion.jsp">Crear
+							class="nav-link active" href="crearCapacitacion.jsp">Crear
 							Capacitación</a> <a class="nav-link"
 							href="listarCapacitacion.jsp">Listar
 							Capacitación</a> 
