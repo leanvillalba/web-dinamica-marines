@@ -62,7 +62,7 @@
 					<div class="col-lg-6 mb-5 mb-lg-0">
 						<div class="card">
 							<div class="card-body py-5 px-md-5">
-								<form action="LoginServlet" method="post">
+								<form action="ContactoServlet" method="post">
 
 
 									<!-- Usuario input -->
@@ -82,14 +82,14 @@
 											name="mail" required placeholder="Correo electrónico" />
 									</div>
 									<div class="form-floating mb-3">
-									  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+									  <textarea class="form-control" placeholder="Leave a comment here" name="mensaje" id="floatingTextarea2" style="height: 100px"></textarea>
 									  <label for="floatingTextarea2">Comments</label>
 									</div>
 
 									<!-- Submit button -->
 									<div>
 									<button type="submit" class="btn btn-primary btn-block mb-4">
-										Log In
+										Enviar
 									</button>
 									</div>
 									
