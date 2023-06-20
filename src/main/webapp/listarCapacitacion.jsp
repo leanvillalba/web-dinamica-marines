@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
+<%@ page import="entity.*"%>
+<%@page import="java.util.ArrayList" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -41,8 +43,45 @@
 		</div>
 	</nav>
 	<section id="seccion">
-	<h1>Lista de clientes:</h1>
-	<h2>agregar lista en: listarCapacitacion.jsp</h2>
+
+		<table class="table">
+			<thead class="table-dark">
+				<tr>
+					<th>ID Capacitación</th>
+					<th>RUT Empresa</th>
+					<th>Dia</th>
+					<th>Hora</th>
+					<th>Lugar</th>
+					<th>Duración</th>
+					<th>Cantidad de Asistentes</th>
+				</tr>
+			</thead>
+			<tbody>
+			<%
+			
+			ArrayList<Capacitacion> capacitaciones = (ArrayList<Capacitacion>)request.getAttribute("capacitaciones");
+			if(capacitaciones != null) {
+				
+			for(Capacitacion c : capacitaciones){
+			%>
+				<tr>
+					<td><%=c.getIdCapacitacion() %></td>
+					<td><%=c.getRutCliente() %></td>
+					<td><%=c.getDia() %></td>
+					<td><%=c.getHora() %></td>
+					<td><%=c.getLugar()%></td>
+					<td><%=c.getDuracion()%></td>
+					<td><%=c.getCantidadDeAsistentes()%></td>
+					
+				</tr>
+				<%
+			}
+			}  // Mover la llave-.-
+				%>
+				
+				
+			</tbody>
+		</table>
 	</section>
 	<!-- Inicio Footer -->
 	<footer id="footer">

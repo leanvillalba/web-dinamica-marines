@@ -63,7 +63,7 @@ public class RegistroCapacitacionServlet extends HttpServlet {
 		// Se lo pasamos como atributo
 		request.setAttribute("capacitaciones", listaCapacitacion);
 		
-		// Envío de la lista -- NO funciona -.-----
+		// Envío de la lista -----
 		getServletContext().getRequestDispatcher("/listarCapacitacion.jsp").forward(request,response);
 		
 		//Probando con sesiones
